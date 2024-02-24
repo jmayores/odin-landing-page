@@ -11,7 +11,11 @@ ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    gap: 12px;
+    gap: 25px;
+}
+
+li {
+    cursor: pointer;
 }
 
 .container-one {
@@ -28,12 +32,14 @@ ul {
     align-items: center;
     color: #F9FAF8;
     width: 70%;
+    max-width: 1450px;
     margin: 0 auto;
 }
 
 .logo {
     font-size: 24px;
     font-weight: 700;
+    flex: 0 0 auto;
 }
 
 .container-one .title {
@@ -46,7 +52,7 @@ ul {
     display: flex;
     height: 100%;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 24px;
     width: 70%;
     margin: 0 auto;
@@ -60,7 +66,6 @@ ul {
 
 .img {
     display: flex;
-    flex: auto;
     justify-content: center;
     align-items: center;
     background-color: grey;
@@ -81,9 +86,8 @@ ul {
 .container-two {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    height: 475px;
+    min-height: 475px;
     padding: 24px 0px;
 }
 
@@ -91,13 +95,17 @@ ul {
    font-size: 36px;
    font-weight: 800;
    columns: #1F2937; 
+   padding: 60px;
 }
 
 .card-list {
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
     width: 60%;
     height: 70%;
+    gap: 60px;
+    flex-wrap: wrap;
 }
 
 .info {
@@ -119,4 +127,76 @@ ul {
 .info .subtext {
     text-align: center;
     color: rgb(45, 45, 45);
+}
+
+.container-three {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 475px;
+    background-color: #E5E7EB;
+}
+
+.quote-info {
+    display: flex;
+    flex-grow: 0;
+    flex-direction: column;
+    gap: 12px;
+    width: 750px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+.thor {
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 700;
+    color: #1F2937;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 450px;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    width: 50%;
+    max-width: 800px;
+    height: 40%;
+    padding: 0px 100px;
+}
+
+.container-four .title {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.container-four .subtext {
+    color: #F9FAF8;
+}
+
+.container-four .sign-up {
+    border: 2px solid #F9FAF8;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
 }
