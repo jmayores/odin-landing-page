@@ -22,7 +22,7 @@ li {
     display: flex;
     height: 500px;
     flex-direction: column;
-    background-color: #1F2937;
+    background-color: #3D0C11;
     padding: 24px 0px;
 }
 
@@ -77,8 +77,8 @@ li {
     cursor: pointer;
     padding: 8px 16px;
     border-radius: 8px;
-    border: 1px solid royalblue;
-    background-color: #3882F6;
+    border: 1px solid #D80032;
+    background-color: #D80032;
     color: #E5E7EB;
     width: 98px;
 }
@@ -94,7 +94,7 @@ li {
 .container-two .title {
    font-size: 36px;
    font-weight: 800;
-   columns: #1F2937; 
+   columns: #3D0C11; 
    padding: 60px;
 }
 
@@ -118,13 +118,14 @@ li {
 
 .card {
     display: flex;
-    border: 4px solid royalblue;
+    border: 4px solid #ba002b;
     border-radius: 16px;
     width: 145px;
     height: 145px;
 }
 
 .info .subtext {
+    margin-top: 8px;
     text-align: center;
     color: rgb(45, 45, 45);
 }
@@ -149,14 +150,14 @@ li {
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
-    color: #1F2937;
+    color: #27080b;
 }
 
 .thor {
     align-self: flex-end;
     font-size: 24px;
     font-weight: 700;
-    color: #1F2937;
+    color: #3D0C11;
 }
 
 .container-four {
@@ -170,7 +171,7 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #3882F6;
+    background-color: #D80032;
     border-radius: 8px;
     width: 50%;
     max-width: 800px;
@@ -196,7 +197,7 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #1F2937;
+    background-color: #3D0C11;
     color: #E5E7EB;
     padding: 40px;
 }
